@@ -1,6 +1,13 @@
-var foods = {apples: 23, 
+var foods = {
+  apples: 23, 
   grapes: 507, 
-  eggs: 48}
+  eggs: 48
+};
+
+/** I dropped the 'apples' key down to it's own line along with
+ * putting the ending curly bracket on its own line with a semi colon to indicate
+ * the end of that object.
+ */
 
 var person = { height: "6 ft", weight: "160 lbs" }
 

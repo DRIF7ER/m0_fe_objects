@@ -15,17 +15,26 @@ var foods = {
 // you created above:
 // YOUR CODE HERE
 
+console.log(Object.keys(foods))
+
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
 // YOUR CODE HERE
+
+console.log(Object.values(foods))
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
 // YOUR CODE HERE
 
+console.log(foods.grapes)
+
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
 // YOUR CODE HERE
+
+foods.energyDrinks = 14
+console.log(foods)
 
 
 // -------------------
@@ -39,16 +48,30 @@ var foods = {
 // Declare a variable that stores an object. Each key should be an attribute of an email and each
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
+var email = {
+  from: "APersonInAPlace@Iceland.com",
+  Bcc: "AnotherPersonInAnotherPlace@Tibet.com",
+  subject: "'Member That One Time In That Other, Other Place?",
+  message: "'Member?",
+  date: "03:55 - 12 March, 2024"
+}
+
 // Write code that logs your email object to the terminal.
+
+console.log(email)
 
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
 // YOUR CODE HERE
 
+console.log(Object.keys(email))
+
 // Write code that logs all of the 'values' of the email object 
 // you created above:
 // YOUR CODE HERE
+
+console.log(Object.values(email))
 
 
 // -------------------
@@ -99,3 +122,29 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var emails = [
+  {
+  from: "APersonInAPlace@Iceland.com",
+  Bcc: "AnotherPersonInAnotherPlace@Tibet.com",
+  subject: "'Member That One Time In That Other, Other Place?",
+  message: "'Member?",
+  date: "03:55 - 12 March, 2024"
+},
+{
+  from: "ADudeInAPlace@ProbablyAGym.com",
+  Bcc: "AGuyWhoseConfused@ARandomDudeSendsMeFlexingPix.com",
+  subject:"Did you see my last set?",
+  message: "Swear I left it around here somewhere...",
+  date: "12:01 - 12 March, 2024"
+},
+{
+  from: "TheDestinyPlayerCommunity@MyConsoleCuzRaids",
+  Bcc: "TheFunPolice@ReportingACrimeThatIsn'tACrimeButShouldBeACrime.com",
+  subject:"Ghost's Voice",
+  message: "Peter Dinklage was the best and Bungie should've paid to keep him.",
+  date: "15:25 - 12 March, 2024"
+},
+];
+
+console.log(emails);

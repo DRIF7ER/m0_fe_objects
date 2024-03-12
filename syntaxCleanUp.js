@@ -9,7 +9,17 @@ var foods = {
  * the end of that object.
  */
 
-var person = { height: "6 ft", weight: "160 lbs" }
+
+var person = {
+  height: "6 ft",
+  weight: "160 lbs"
+};
+
+/** I dropped each value pair to their own respective line and removed
+ * some unecessary spaces. I added a semicolon to the ending
+ * curly bracket to indicate the end of the object.
+ */
+
 
 var post = { imageSrc: "./images/beach.png",
 

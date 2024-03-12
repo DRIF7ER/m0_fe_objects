@@ -35,11 +35,14 @@ var post = {
  */
 
 
-var post2 =
-{
-      imageSrc: "./images/holiday-party.png",
-      caption: "What a great holiday party omg",
-      timestamp: "11:37 PM December 31, 2019",
-      numberLikes: 13,
-      comments: []
-}
+var post2 = {
+  imageSrc: "./images/holiday-party.png",
+  caption: "What a great holiday party omg",
+  timestamp: "11:37 PM December 31, 2019",
+  numberLikes: 13,
+  comments: []
+};
+
+/** Moved all value pairs to be left aligned and placed curly brackets
+ * in their proper locations.
+ */

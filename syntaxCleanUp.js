@@ -21,12 +21,18 @@ var person = {
  */
 
 
-var post = { imageSrc: "./images/beach.png",
+var post = {
+  imageSrc: "./images/beach.png",
+  caption: "At the beach with my besties",
+  timestamp: "4:37 PM August 13, 2019",
+  number_likes: 0,
+  comments: []
+};
 
-
-   caption: "At the beach with my besties", timestamp: "4:37 PM August 13, 2019",
-        number_likes: 0,
-comments: [] }
+/** Spacing and line distrubution was all over the place so I've
+ * placed all value pairs on their own lines and aligned all to
+ * the left.
+ */
 
 
 var post2 =
